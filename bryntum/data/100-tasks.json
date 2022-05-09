@@ -1,0 +1,760 @@
+[ {
+  "id" : 1,
+  "name" : "Parent 1",
+  "startDate" : "2022-01-02T11:00:00Z",
+  "endDate" : "2022-01-31T11:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 2,
+    "name" : "Sub-parent 11",
+    "startDate" : "2022-01-02T11:00:00Z",
+    "endDate" : "2022-01-17T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 3,
+      "name" : "Task 111",
+      "startDate" : "2022-01-02T11:00:00Z",
+      "endDate" : "2022-01-06T11:00:00Z",
+      "duration" : 4,
+      "percentDone" : 2
+    }, {
+      "id" : 4,
+      "name" : "Task 112",
+      "startDate" : "2022-01-06T11:00:00Z",
+      "endDate" : "2022-01-11T11:00:00Z",
+      "duration" : 5,
+      "percentDone" : 46
+    }, {
+      "id" : 5,
+      "name" : "Task 113",
+      "startDate" : "2022-01-11T11:00:00Z",
+      "endDate" : "2022-01-15T11:00:00Z",
+      "duration" : 4,
+      "percentDone" : 59
+    }, {
+      "id" : 6,
+      "name" : "Task 114",
+      "startDate" : "2022-01-15T11:00:00Z",
+      "endDate" : "2022-01-17T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 20
+    } ],
+    "duration" : 15,
+    "percentDone" : 34
+  }, {
+    "id" : 7,
+    "name" : "Sub-parent 12",
+    "startDate" : "2022-01-17T11:00:00Z",
+    "endDate" : "2022-01-31T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 8,
+      "name" : "Task 121",
+      "startDate" : "2022-01-17T11:00:00Z",
+      "endDate" : "2022-01-22T11:00:00Z",
+      "duration" : 5,
+      "percentDone" : 55
+    }, {
+      "id" : 9,
+      "name" : "Task 122",
+      "startDate" : "2022-01-22T11:00:00Z",
+      "endDate" : "2022-01-25T11:00:00Z",
+      "duration" : 3,
+      "percentDone" : 98
+    }, {
+      "id" : 10,
+      "name" : "Task 123",
+      "startDate" : "2022-01-25T11:00:00Z",
+      "endDate" : "2022-01-31T11:00:00Z",
+      "duration" : 6,
+      "percentDone" : 61
+    } ],
+    "duration" : 14,
+    "percentDone" : 66
+  } ],
+  "duration" : 29,
+  "percentDone" : 49
+}, {
+  "id" : 12,
+  "name" : "Parent 12",
+  "startDate" : "2022-01-31T11:00:00Z",
+  "endDate" : "2022-02-22T11:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 13,
+    "name" : "Sub-parent 121",
+    "startDate" : "2022-01-31T11:00:00Z",
+    "endDate" : "2022-02-12T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 14,
+      "name" : "Task 1211",
+      "startDate" : "2022-01-31T11:00:00Z",
+      "endDate" : "2022-02-02T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 40
+    }, {
+      "id" : 15,
+      "name" : "Task 1212",
+      "startDate" : "2022-02-02T11:00:00Z",
+      "endDate" : "2022-02-08T11:00:00Z",
+      "duration" : 6,
+      "percentDone" : 15
+    }, {
+      "id" : 16,
+      "name" : "Task 1213",
+      "startDate" : "2022-02-08T11:00:00Z",
+      "endDate" : "2022-02-10T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 32
+    }, {
+      "id" : 17,
+      "name" : "Task 1214",
+      "startDate" : "2022-02-10T11:00:00Z",
+      "endDate" : "2022-02-12T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 45
+    } ],
+    "duration" : 12,
+    "percentDone" : 27
+  }, {
+    "id" : 18,
+    "name" : "Sub-parent 122",
+    "startDate" : "2022-02-12T11:00:00Z",
+    "endDate" : "2022-02-22T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 19,
+      "name" : "Task 1221",
+      "startDate" : "2022-02-12T11:00:00Z",
+      "endDate" : "2022-02-14T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 25
+    }, {
+      "id" : 20,
+      "name" : "Task 1222",
+      "startDate" : "2022-02-14T11:00:00Z",
+      "endDate" : "2022-02-16T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 85
+    }, {
+      "id" : 21,
+      "name" : "Task 1223",
+      "startDate" : "2022-02-16T11:00:00Z",
+      "endDate" : "2022-02-22T11:00:00Z",
+      "duration" : 6,
+      "percentDone" : 13
+    } ],
+    "duration" : 10,
+    "percentDone" : 29
+  } ],
+  "duration" : 22,
+  "percentDone" : 28
+}, {
+  "id" : 23,
+  "name" : "Parent 23",
+  "startDate" : "2022-02-22T11:00:00Z",
+  "endDate" : "2022-03-16T11:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 24,
+    "name" : "Sub-parent 231",
+    "startDate" : "2022-02-22T11:00:00Z",
+    "endDate" : "2022-03-05T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 25,
+      "name" : "Task 2311",
+      "startDate" : "2022-02-22T11:00:00Z",
+      "endDate" : "2022-02-25T11:00:00Z",
+      "duration" : 3,
+      "percentDone" : 49
+    }, {
+      "id" : 26,
+      "name" : "Task 2312",
+      "startDate" : "2022-02-25T11:00:00Z",
+      "endDate" : "2022-02-27T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 22
+    }, {
+      "id" : 27,
+      "name" : "Task 2313",
+      "startDate" : "2022-02-27T11:00:00Z",
+      "endDate" : "2022-03-01T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 94
+    }, {
+      "id" : 28,
+      "name" : "Task 2314",
+      "startDate" : "2022-03-01T11:00:00Z",
+      "endDate" : "2022-03-05T11:00:00Z",
+      "duration" : 4,
+      "percentDone" : 62
+    } ],
+    "duration" : 11,
+    "percentDone" : 57
+  }, {
+    "id" : 29,
+    "name" : "Sub-parent 232",
+    "startDate" : "2022-03-05T11:00:00Z",
+    "endDate" : "2022-03-16T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 30,
+      "name" : "Task 2321",
+      "startDate" : "2022-03-05T11:00:00Z",
+      "endDate" : "2022-03-10T11:00:00Z",
+      "duration" : 5,
+      "percentDone" : 7
+    }, {
+      "id" : 31,
+      "name" : "Task 2322",
+      "startDate" : "2022-03-10T11:00:00Z",
+      "endDate" : "2022-03-13T11:00:00Z",
+      "duration" : 3,
+      "percentDone" : 2
+    }, {
+      "id" : 32,
+      "name" : "Task 2323",
+      "startDate" : "2022-03-13T11:00:00Z",
+      "endDate" : "2022-03-16T11:00:00Z",
+      "duration" : 3,
+      "percentDone" : 99
+    } ],
+    "duration" : 11,
+    "percentDone" : 30
+  } ],
+  "duration" : 22,
+  "percentDone" : 43
+}, {
+  "id" : 34,
+  "name" : "Parent 34",
+  "startDate" : "2022-03-16T11:00:00Z",
+  "endDate" : "2022-04-14T12:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 35,
+    "name" : "Sub-parent 341",
+    "startDate" : "2022-03-16T11:00:00Z",
+    "endDate" : "2022-03-31T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 36,
+      "name" : "Task 3411",
+      "startDate" : "2022-03-16T11:00:00Z",
+      "endDate" : "2022-03-19T11:00:00Z",
+      "duration" : 3,
+      "percentDone" : 26
+    }, {
+      "id" : 37,
+      "name" : "Task 3412",
+      "startDate" : "2022-03-19T11:00:00Z",
+      "endDate" : "2022-03-22T11:00:00Z",
+      "duration" : 3,
+      "percentDone" : 83
+    }, {
+      "id" : 38,
+      "name" : "Task 3413",
+      "startDate" : "2022-03-22T11:00:00Z",
+      "endDate" : "2022-03-27T11:00:00Z",
+      "duration" : 5,
+      "percentDone" : 26
+    }, {
+      "id" : 39,
+      "name" : "Task 3414",
+      "startDate" : "2022-03-27T11:00:00Z",
+      "endDate" : "2022-03-31T11:00:00Z",
+      "duration" : 4,
+      "percentDone" : 89
+    } ],
+    "duration" : 15,
+    "percentDone" : 54
+  }, {
+    "id" : 40,
+    "name" : "Sub-parent 342",
+    "startDate" : "2022-03-31T11:00:00Z",
+    "endDate" : "2022-04-14T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 41,
+      "name" : "Task 3421",
+      "startDate" : "2022-03-31T11:00:00Z",
+      "endDate" : "2022-04-05T12:00:00Z",
+      "duration" : 5,
+      "percentDone" : 38
+    }, {
+      "id" : 42,
+      "name" : "Task 3422",
+      "startDate" : "2022-04-05T12:00:00Z",
+      "endDate" : "2022-04-11T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 13
+    }, {
+      "id" : 43,
+      "name" : "Task 3423",
+      "startDate" : "2022-04-11T12:00:00Z",
+      "endDate" : "2022-04-14T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 79
+    } ],
+    "duration" : 14,
+    "percentDone" : 36
+  } ],
+  "duration" : 29,
+  "percentDone" : 45
+}, {
+  "id" : 45,
+  "name" : "Parent 45",
+  "startDate" : "2022-04-14T12:00:00Z",
+  "endDate" : "2022-05-12T12:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 46,
+    "name" : "Sub-parent 451",
+    "startDate" : "2022-04-14T12:00:00Z",
+    "endDate" : "2022-04-29T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 47,
+      "name" : "Task 4511",
+      "startDate" : "2022-04-14T12:00:00Z",
+      "endDate" : "2022-04-17T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 30
+    }, {
+      "id" : 48,
+      "name" : "Task 4512",
+      "startDate" : "2022-04-17T12:00:00Z",
+      "endDate" : "2022-04-21T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 51
+    }, {
+      "id" : 49,
+      "name" : "Task 4513",
+      "startDate" : "2022-04-21T12:00:00Z",
+      "endDate" : "2022-04-23T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 7
+    }, {
+      "id" : 50,
+      "name" : "Task 4514",
+      "startDate" : "2022-04-23T12:00:00Z",
+      "endDate" : "2022-04-29T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 56
+    } ],
+    "duration" : 15,
+    "percentDone" : 42
+  }, {
+    "id" : 51,
+    "name" : "Sub-parent 452",
+    "startDate" : "2022-04-29T12:00:00Z",
+    "endDate" : "2022-05-12T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 52,
+      "name" : "Task 4521",
+      "startDate" : "2022-04-29T12:00:00Z",
+      "endDate" : "2022-05-03T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 77
+    }, {
+      "id" : 53,
+      "name" : "Task 4522",
+      "startDate" : "2022-05-03T12:00:00Z",
+      "endDate" : "2022-05-09T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 89
+    }, {
+      "id" : 54,
+      "name" : "Task 4523",
+      "startDate" : "2022-05-09T12:00:00Z",
+      "endDate" : "2022-05-12T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 80
+    } ],
+    "duration" : 13,
+    "percentDone" : 83
+  } ],
+  "duration" : 28,
+  "percentDone" : 61
+}, {
+  "id" : 56,
+  "name" : "Parent 56",
+  "startDate" : "2022-05-12T12:00:00Z",
+  "endDate" : "2022-06-13T12:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 57,
+    "name" : "Sub-parent 561",
+    "startDate" : "2022-05-12T12:00:00Z",
+    "endDate" : "2022-05-28T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 58,
+      "name" : "Task 5611",
+      "startDate" : "2022-05-12T12:00:00Z",
+      "endDate" : "2022-05-16T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 59
+    }, {
+      "id" : 59,
+      "name" : "Task 5612",
+      "startDate" : "2022-05-16T12:00:00Z",
+      "endDate" : "2022-05-19T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 36
+    }, {
+      "id" : 60,
+      "name" : "Task 5613",
+      "startDate" : "2022-05-19T12:00:00Z",
+      "endDate" : "2022-05-22T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 51
+    }, {
+      "id" : 61,
+      "name" : "Task 5614",
+      "startDate" : "2022-05-22T12:00:00Z",
+      "endDate" : "2022-05-28T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 23
+    } ],
+    "duration" : 16,
+    "percentDone" : 39
+  }, {
+    "id" : 62,
+    "name" : "Sub-parent 562",
+    "startDate" : "2022-05-28T12:00:00Z",
+    "endDate" : "2022-06-13T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 63,
+      "name" : "Task 5621",
+      "startDate" : "2022-05-28T12:00:00Z",
+      "endDate" : "2022-06-03T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 5
+    }, {
+      "id" : 64,
+      "name" : "Task 5622",
+      "startDate" : "2022-06-03T12:00:00Z",
+      "endDate" : "2022-06-09T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 96
+    }, {
+      "id" : 65,
+      "name" : "Task 5623",
+      "startDate" : "2022-06-09T12:00:00Z",
+      "endDate" : "2022-06-13T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 94
+    } ],
+    "duration" : 16,
+    "percentDone" : 61
+  } ],
+  "duration" : 32,
+  "percentDone" : 50
+}, {
+  "id" : 67,
+  "name" : "Parent 67",
+  "startDate" : "2022-06-13T12:00:00Z",
+  "endDate" : "2022-07-12T12:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 68,
+    "name" : "Sub-parent 671",
+    "startDate" : "2022-06-13T12:00:00Z",
+    "endDate" : "2022-06-30T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 69,
+      "name" : "Task 6711",
+      "startDate" : "2022-06-13T12:00:00Z",
+      "endDate" : "2022-06-18T12:00:00Z",
+      "duration" : 5,
+      "percentDone" : 64
+    }, {
+      "id" : 70,
+      "name" : "Task 6712",
+      "startDate" : "2022-06-18T12:00:00Z",
+      "endDate" : "2022-06-23T12:00:00Z",
+      "duration" : 5,
+      "percentDone" : 78
+    }, {
+      "id" : 71,
+      "name" : "Task 6713",
+      "startDate" : "2022-06-23T12:00:00Z",
+      "endDate" : "2022-06-26T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 85
+    }, {
+      "id" : 72,
+      "name" : "Task 6714",
+      "startDate" : "2022-06-26T12:00:00Z",
+      "endDate" : "2022-06-30T12:00:00Z",
+      "duration" : 4
+    } ],
+    "duration" : 17,
+    "percentDone" : 56
+  }, {
+    "id" : 73,
+    "name" : "Sub-parent 672",
+    "startDate" : "2022-06-30T12:00:00Z",
+    "endDate" : "2022-07-12T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 74,
+      "name" : "Task 6721",
+      "startDate" : "2022-06-30T12:00:00Z",
+      "endDate" : "2022-07-06T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 86
+    }, {
+      "id" : 75,
+      "name" : "Task 6722",
+      "startDate" : "2022-07-06T12:00:00Z",
+      "endDate" : "2022-07-10T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 55
+    }, {
+      "id" : 76,
+      "name" : "Task 6723",
+      "startDate" : "2022-07-10T12:00:00Z",
+      "endDate" : "2022-07-12T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 9
+    } ],
+    "duration" : 12,
+    "percentDone" : 62
+  } ],
+  "duration" : 29,
+  "percentDone" : 59
+}, {
+  "id" : 78,
+  "name" : "Parent 78",
+  "startDate" : "2022-07-12T12:00:00Z",
+  "endDate" : "2022-08-08T12:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 79,
+    "name" : "Sub-parent 781",
+    "startDate" : "2022-07-12T12:00:00Z",
+    "endDate" : "2022-07-28T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 80,
+      "name" : "Task 7811",
+      "startDate" : "2022-07-12T12:00:00Z",
+      "endDate" : "2022-07-18T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 59
+    }, {
+      "id" : 81,
+      "name" : "Task 7812",
+      "startDate" : "2022-07-18T12:00:00Z",
+      "endDate" : "2022-07-22T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 2
+    }, {
+      "id" : 82,
+      "name" : "Task 7813",
+      "startDate" : "2022-07-22T12:00:00Z",
+      "endDate" : "2022-07-26T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 42
+    }, {
+      "id" : 83,
+      "name" : "Task 7814",
+      "startDate" : "2022-07-26T12:00:00Z",
+      "endDate" : "2022-07-28T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 49
+    } ],
+    "duration" : 16,
+    "percentDone" : 39
+  }, {
+    "id" : 84,
+    "name" : "Sub-parent 782",
+    "startDate" : "2022-07-28T12:00:00Z",
+    "endDate" : "2022-08-08T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 85,
+      "name" : "Task 7821",
+      "startDate" : "2022-07-28T12:00:00Z",
+      "endDate" : "2022-08-01T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 73
+    }, {
+      "id" : 86,
+      "name" : "Task 7822",
+      "startDate" : "2022-08-01T12:00:00Z",
+      "endDate" : "2022-08-05T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 53
+    }, {
+      "id" : 87,
+      "name" : "Task 7823",
+      "startDate" : "2022-08-05T12:00:00Z",
+      "endDate" : "2022-08-08T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 9
+    } ],
+    "duration" : 11,
+    "percentDone" : 48
+  } ],
+  "duration" : 27,
+  "percentDone" : 42
+}, {
+  "id" : 89,
+  "name" : "Parent 89",
+  "startDate" : "2022-08-08T12:00:00Z",
+  "endDate" : "2022-09-04T12:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 90,
+    "name" : "Sub-parent 891",
+    "startDate" : "2022-08-08T12:00:00Z",
+    "endDate" : "2022-08-25T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 91,
+      "name" : "Task 8911",
+      "startDate" : "2022-08-08T12:00:00Z",
+      "endDate" : "2022-08-12T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 31
+    }, {
+      "id" : 92,
+      "name" : "Task 8912",
+      "startDate" : "2022-08-12T12:00:00Z",
+      "endDate" : "2022-08-16T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 40
+    }, {
+      "id" : 93,
+      "name" : "Task 8913",
+      "startDate" : "2022-08-16T12:00:00Z",
+      "endDate" : "2022-08-21T12:00:00Z",
+      "duration" : 5,
+      "percentDone" : 13
+    }, {
+      "id" : 94,
+      "name" : "Task 8914",
+      "startDate" : "2022-08-21T12:00:00Z",
+      "endDate" : "2022-08-25T12:00:00Z",
+      "duration" : 4,
+      "percentDone" : 68
+    } ],
+    "duration" : 17,
+    "percentDone" : 36
+  }, {
+    "id" : 95,
+    "name" : "Sub-parent 892",
+    "startDate" : "2022-08-25T12:00:00Z",
+    "endDate" : "2022-09-04T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 96,
+      "name" : "Task 8921",
+      "startDate" : "2022-08-25T12:00:00Z",
+      "endDate" : "2022-08-27T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 99
+    }, {
+      "id" : 97,
+      "name" : "Task 8922",
+      "startDate" : "2022-08-27T12:00:00Z",
+      "endDate" : "2022-09-01T12:00:00Z",
+      "duration" : 5,
+      "percentDone" : 78
+    }, {
+      "id" : 98,
+      "name" : "Task 8923",
+      "startDate" : "2022-09-01T12:00:00Z",
+      "endDate" : "2022-09-04T12:00:00Z",
+      "duration" : 3,
+      "percentDone" : 91
+    } ],
+    "duration" : 10,
+    "percentDone" : 86
+  } ],
+  "duration" : 27,
+  "percentDone" : 54
+}, {
+  "id" : 100,
+  "name" : "Parent 100",
+  "startDate" : "2022-09-04T12:00:00Z",
+  "endDate" : "2022-09-26T11:00:00Z",
+  "expanded" : true,
+  "children" : [ {
+    "id" : 101,
+    "name" : "Sub-parent 1001",
+    "startDate" : "2022-09-04T12:00:00Z",
+    "endDate" : "2022-09-20T12:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 102,
+      "name" : "Task 10011",
+      "startDate" : "2022-09-04T12:00:00Z",
+      "endDate" : "2022-09-10T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 46
+    }, {
+      "id" : 103,
+      "name" : "Task 10012",
+      "startDate" : "2022-09-10T12:00:00Z",
+      "endDate" : "2022-09-12T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 76
+    }, {
+      "id" : 104,
+      "name" : "Task 10013",
+      "startDate" : "2022-09-12T12:00:00Z",
+      "endDate" : "2022-09-18T12:00:00Z",
+      "duration" : 6,
+      "percentDone" : 69
+    }, {
+      "id" : 105,
+      "name" : "Task 10014",
+      "startDate" : "2022-09-18T12:00:00Z",
+      "endDate" : "2022-09-20T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 69
+    } ],
+    "duration" : 16,
+    "percentDone" : 61
+  }, {
+    "id" : 106,
+    "name" : "Sub-parent 1002",
+    "startDate" : "2022-09-20T12:00:00Z",
+    "endDate" : "2022-09-26T11:00:00Z",
+    "expanded" : true,
+    "children" : [ {
+      "id" : 107,
+      "name" : "Task 10021",
+      "startDate" : "2022-09-20T12:00:00Z",
+      "endDate" : "2022-09-22T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 3
+    }, {
+      "id" : 108,
+      "name" : "Task 10022",
+      "startDate" : "2022-09-22T12:00:00Z",
+      "endDate" : "2022-09-24T12:00:00Z",
+      "duration" : 2,
+      "percentDone" : 55
+    }, {
+      "id" : 109,
+      "name" : "Task 10023",
+      "startDate" : "2022-09-24T12:00:00Z",
+      "endDate" : "2022-09-26T11:00:00Z",
+      "duration" : 2,
+      "percentDone" : 65
+    } ],
+    "duration" : 6,
+    "percentDone" : 41
+  } ],
+  "duration" : 22,
+  "percentDone" : 55
+} ]
